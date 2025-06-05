@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+/* @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap'); */
+
+@layer base {
+  body {
+    font-family: "Sora", sans-serif;
+  }
+}
+
+.btn {
+  @apply flex items-center text-sm md:text-base gap-[4px] px-4 py-2 md:px-8 md:py-4 rounded-full font-normal transition;
+}
+
+.btn1 {
+  @apply flex items-center text-xs md:text-sm gap-[5px] px-4 py-2 rounded-full font-thin transition;
+}
+
+
+/* .sora-bold {
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+} */
