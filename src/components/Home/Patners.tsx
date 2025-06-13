@@ -1,8 +1,4 @@
 
-import ourwork1 from "../../assets/ourworks/icon1.png";
-import ourwork2 from "../../assets/ourworks/icon2.png";
-import ourwork3 from "../../assets/ourworks/icon3.png";
-import ourwork4 from "../../assets/ourworks/icon4.png";
 
 import contain1 from "../../assets/patner/Container1.png";
 import contain2 from "../../assets/patner/Container2.png"
@@ -15,7 +11,6 @@ import contain6 from "../../assets/patner/Container6.png"
 
 import abstractBg from "../../assets/AbstractDesign.png";
 
-import Arrowbutton from '../Arrowbutton';
 
 export interface CardItem {
     id: number;
@@ -118,7 +113,7 @@ const Patners = () => {
                     </p>
 
                     <div className="mt-8">
-                        <p className="my-4">Unlock Your Digital Potential Today</p>
+                        <p className="my-4 text-center">Unlock Your Digital Potential Today</p>
                         <div className="flex items-center justify-center gap-4">
                             <button className="btn bg-white text-black ">Get started</button>
                             <button className="btn bg-[#1A1A1A]">Free Consultation</button>

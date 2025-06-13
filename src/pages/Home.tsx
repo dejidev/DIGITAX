@@ -1,4 +1,5 @@
 import img from "../assets/AbstractDesign.png";
+import Footer from "../components/Home/Footer";
 import Frequent from "../components/Home/Frequent";
 import Patners from "../components/Home/Patners";
 
@@ -67,9 +68,11 @@ const Home = () => {
 
       <Testimonial />
 
-      <Frequent/>
+      <Frequent />
 
-      <Patners/>
+      <Patners />
+
+      <Footer />
 
     </div>
 
