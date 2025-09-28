@@ -99,7 +99,7 @@ const Patners = () => {
 
 
             <div
-                className="bg-gradient-to-b from-[#292929] to-black   bg-cover bg-center rounded-xl shadow-lg p-6 text-white mt-16"
+                className="bg-gradient-to-b from-[#292929] to-black   bg-cover bg-center rounded-xl shadow-lg p-6 text-white my-16 py-16 "
                 style={{
                     backgroundImage: `url(${abstractBg})`,
                 }}

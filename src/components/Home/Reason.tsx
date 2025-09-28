@@ -63,7 +63,7 @@ const cardItems: CardItem[] = [
 
 const Reason = () => {
   return (
-    <div>
+    <div className="mt-16 md:mt-32 mx-4 md:mx-12">
           <section>
               <h1 className="font-semibold text-[34px] md:text-[58px] text-white sora-bold flex flex-col items-center justify-center text-center">
                   <p>Reasons to Choose Aerassky for</p>
@@ -91,8 +91,6 @@ const Reason = () => {
 
                   </div>
               </div>
-
-
           </section>
     </div>
   )
