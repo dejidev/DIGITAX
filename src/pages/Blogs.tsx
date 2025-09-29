@@ -409,7 +409,7 @@ const Blogs = () => {
           </motion.p>
 
           <motion.div
-            className="max-w-md mx-auto flex gap-4"
+            className="max-w-md mx-auto flex flex-col md:flex-row gap-4"
             initial={{ opacity: 0, y: 20 }}
             animate={isNewsletterInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
             transition={{ duration: 0.6, delay: 0.6 }}
@@ -420,7 +420,7 @@ const Blogs = () => {
               className="flex-1 bg-[#262626] border border-[#404040] rounded-lg px-4 py-3 text-white placeholder-[#666666] focus:border-[#666666] focus:outline-none transition-colors"
             />
             <motion.button
-              className="btn bg-white text-black hover:bg-[#e0e0e0] whitespace-nowrap"
+              className="btn bg-white text-black hover:bg-[#e0e0e0] whitespace-nowrap  py-2"
               whileHover={{ scale: 1.02, y: -2 }}
               whileTap={{ scale: 0.98 }}
               transition={{ type: "spring", stiffness: 300 }}
